@@ -1,0 +1,24 @@
+.main .line {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    
+}
+.main .line div {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 1px;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color .5s;
+}
+.main .line div.s {
+    background-color: #bbb;
+    transition: background-color .5s;
+}
+.main .line div.f {
+    background:purple;
+    transition: background-color 0.5s;
+}
